@@ -1,13 +1,11 @@
 import express from 'express';
-
+import transactionRoutes from './routes/transaction.routes.js';
 
 const app = express();
 
 app.use(express.json());
 
 
-app.get('/',(req,res)=>{
-    res.send('Hello World');
-})
+app.use('/api/v1/transactions',transactionRoutes);
 
 export {app}
