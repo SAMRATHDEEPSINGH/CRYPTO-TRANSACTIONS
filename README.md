@@ -54,20 +54,6 @@ Retrieves the user's total expenses and the current Ethereum price.
 Example: GET /api/v1/transactions/expenses/0xce94e5621a5f7068253c42558c147480f38b5e0d
 
 
-Deployment
-Deploying on AWS Elastic Beanstalk
-
-1. Initialize Elastic Beanstalk:
-eb init
-
-Follow the prompts to configure your application.
-
-2. eb create crypto-transactions-env
-eb deploy
-
-3. Add Environment Variables:
-In the AWS Management Console, go to Elastic Beanstalk > Your Application > Configuration > Software.
-Add MONGO_URI, ETHERSCAN_API_KEY, and other necessary environment variables.
 
 Deploying MongoDB on MongoDB Atlas
 
@@ -89,13 +75,11 @@ Etherscan API
 
 CoinGecko API
 
-AWS Elastic Beanstalk
 
 MongoDB Atlas
 
 ### **Usage Instructions**
 - **How to Use**: Detailed steps to run the project locally.
-- **Deployment**: Instructions for deploying to AWS and MongoDB Atlas.
 - **API Documentation**: Details of the API endpoints available in the project.
 - **License**: Licensing information for the project.
 
